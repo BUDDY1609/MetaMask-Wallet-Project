@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_b",
+						"type": "uint256"
+					}
+				],
+				"name": "inputnum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "multi",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"inputnum(uint256,uint256)": {
+					"notice": "input Number"
+				},
+				"multi()": {
+					"notice": "output number of input number"
+				},
+				"sum()": {
+					"notice": "sum number of input number"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract.sol": "Test"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract.sol": {
+			"keccak256": "0x7ef58c0da3449a9fa4cf3bd6bc002ebd8274014dec2a4d2a5371a4478bea300b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3dcf67aabf0db8f175844a92b1c74292eb4dce51921faa906a9cc0d7219dfb93",
+				"dweb:/ipfs/QmSqwDAhJhgwDwnxmF8oDeZcnJgFXkbs2ZbxmB3vDdADw5"
+			]
+		}
+	},
+	"version": 1
+}
